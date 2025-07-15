@@ -1,0 +1,26 @@
+{
+  "name": "event-management",
+  "version": "1.0.0",
+  "description": "rest apis for event management",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "drizzle-orm": "^0.44.3",
+    "express": "^5.1.0",
+    "pg": "^8.16.3",
+    "postgres": "^3.4.7"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.4",
+    "nodemon": "^3.1.10",
+    "tsx": "^4.20.3"
+  }
+}
