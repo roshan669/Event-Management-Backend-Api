@@ -1,29 +1,29 @@
-- Event Management REST API
-  \*\*\* Objective
+* Event Management REST API
+  *** Objective
   This project is a beginner-friendly implementation of a RESTful API for managing events. It allows users to create, register for, and manage events, while also providing statistics and a list of upcoming events.
 
 ** Technologies Used
-\*\*** Node.js: JavaScript runtime environment.
+**** Node.js: JavaScript runtime environment.
 
-\*\*\*\* Express.js: Web application framework for Node.js.
+**** Express.js: Web application framework for Node.js.
 
-\*\*\*\* PostgreSQL: Robust relational database for storing event and user data.
+**** PostgreSQL: Robust relational database for storing event and user data.
 
-\*\*\*\* Drizzle ORM: TypeScript/JavaScript ORM for interacting with the PostgreSQL database.
+**** Drizzle ORM: TypeScript/JavaScript ORM for interacting with the PostgreSQL database.
 
-\*\*\*\* Nodemon: For automatic server restarts during development.
+**** Nodemon: For automatic server restarts during development.
 
 ** Setup Instructions
-\*\*** Follow these steps to get the project up and running on your local machine.
+**** Follow these steps to get the project up and running on your local machine.
 
 ** Prerequisites
-\*\*** Make sure you have the following installed:
+**** Make sure you have the following installed:
 
 Node.js (LTS version recommended)
 
 npm (Node Package Manager, comes with Node.js) or Yarn
 
-\*\*\*\* PostgreSQL database server
+**** PostgreSQL database server
 
 1. Clone the Repository
    First, clone this repository to your local machine:
